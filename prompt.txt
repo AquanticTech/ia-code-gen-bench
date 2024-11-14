@@ -16,7 +16,7 @@ Spécifications de la fonction:
 - Sortie: Nouveau tableau 8D trié
 - Performance: O(n log n)
 - Mémoire: O(1) préféré
-- Temps réponse: <100ms pour 10x10x10x10x10x10x10x10
+- Temps réponse: <100ms pour 10x10x10x10x10x10x10x10>
 
 Exemple de structure:
 ```javascript
@@ -77,3 +77,4 @@ Générer une solution complète qui:
 
 [END]
 Merci de fournir une solution complète et optimisée suivant ces spécifications.
+La solution doit être un code exécutable directement.

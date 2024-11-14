@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Liste des modèles disponibles pour le test
-models=("codellama" "qwen2.5-coder" "deepseek-coder" "mistral")
+models=("codellama" "qwen2.5-coder:32b" "deepseek-coder" "mistral" "myqwen" )
 
 # Demande de sélection du modèle
 echo "Sélectionnez le modèle parmi les options suivantes :"
@@ -35,7 +35,7 @@ Spécifications de la fonction:
 - Sortie: Nouveau tableau 8D trié
 - Performance: O(n log n)
 - Mémoire: O(1) préféré
-- Temps réponse: <100ms pour 10x10x10x10x10x10x10x10
+- Temps réponse: <100ms pour 10x10x10x10x10x10x10x10>
 
 Exemple de structure:
 ```javascript
@@ -96,6 +96,7 @@ Générer une solution complète qui:
 
 [END]
 Merci de fournir une solution complète et optimisée suivant ces spécifications.
+La solution doit être un code exécutable directement.
 EOT
 
 # Exécution d'Ollama avec le prompt
