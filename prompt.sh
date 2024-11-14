@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Liste des modèles disponibles pour le test
-models=("codellama" "qwen2.5-coder:32b" "deepseek-coder" "mistral" "myqwen" )
+models=("codellama" "qwen2.5-coder:32b" "qwen2.5-coder:latest" "deepseek-coder" "mistral" "myqwen" )
 
 # Demande de sélection du modèle
 echo "Sélectionnez le modèle parmi les options suivantes :"
@@ -100,6 +100,6 @@ La solution doit être un code exécutable directement.
 EOT
 
 # Exécution d'Ollama avec le prompt
-ollama run $model "$(cat prompt.txt)" > sortArray8D_solution-$model.js
+ollama run $model "$(cat prompt.txt)" > sortArray8D_solution-$model.md
 
-echo "La solution a été enregistrée dans sortArray8D_solution-$model.js"
+echo "La solution a été enregistrée dans sortArray8D_solution-$model.md"
